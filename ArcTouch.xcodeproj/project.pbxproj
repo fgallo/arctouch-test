@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A27CDA10231786E800B83BA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27CDA0F231786E800B83BA4 /* AppDelegate.swift */; };
+		A27CDA12231786E800B83BA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27CDA11231786E800B83BA4 /* ViewController.swift */; };
+		A27CDA15231786E800B83BA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27CDA13231786E800B83BA4 /* Main.storyboard */; };
+		A27CDA17231786EA00B83BA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A27CDA16231786EA00B83BA4 /* Assets.xcassets */; };
+		A27CDA1A231786EA00B83BA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A27CDA18231786EA00B83BA4 /* LaunchScreen.storyboard */; };
+		A27CDA25231786EA00B83BA4 /* ArcTouchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27CDA24231786EA00B83BA4 /* ArcTouchTests.swift */; };
+		A27CDA30231786EA00B83BA4 /* ArcTouchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27CDA2F231786EA00B83BA4 /* ArcTouchUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A27CDA21231786EA00B83BA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A27CDA04231786E800B83BA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A27CDA0B231786E800B83BA4;
+			remoteInfo = ArcTouch;
+		};
+		A27CDA2C231786EA00B83BA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A27CDA04231786E800B83BA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A27CDA0B231786E800B83BA4;
+			remoteInfo = ArcTouch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A27CDA0C231786E800B83BA4 /* ArcTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArcTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A27CDA0F231786E800B83BA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A27CDA11231786E800B83BA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A27CDA14231786E800B83BA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A27CDA16231786EA00B83BA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A27CDA19231786EA00B83BA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A27CDA1B231786EA00B83BA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A27CDA20231786EA00B83BA4 /* ArcTouchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArcTouchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A27CDA24231786EA00B83BA4 /* ArcTouchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcTouchTests.swift; sourceTree = "<group>"; };
+		A27CDA26231786EA00B83BA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A27CDA2B231786EA00B83BA4 /* ArcTouchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArcTouchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A27CDA2F231786EA00B83BA4 /* ArcTouchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcTouchUITests.swift; sourceTree = "<group>"; };
+		A27CDA31231786EA00B83BA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A27CDA09231786E800B83BA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27CDA1D231786EA00B83BA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27CDA28231786EA00B83BA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A27CDA03231786E800B83BA4 = {
+			isa = PBXGroup;
+			children = (
+				A27CDA0E231786E800B83BA4 /* ArcTouch */,
+				A27CDA23231786EA00B83BA4 /* ArcTouchTests */,
+				A27CDA2E231786EA00B83BA4 /* ArcTouchUITests */,
+				A27CDA0D231786E800B83BA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A27CDA0D231786E800B83BA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A27CDA0C231786E800B83BA4 /* ArcTouch.app */,
+				A27CDA20231786EA00B83BA4 /* ArcTouchTests.xctest */,
+				A27CDA2B231786EA00B83BA4 /* ArcTouchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A27CDA0E231786E800B83BA4 /* ArcTouch */ = {
+			isa = PBXGroup;
+			children = (
+				A27CDA0F231786E800B83BA4 /* AppDelegate.swift */,
+				A27CDA11231786E800B83BA4 /* ViewController.swift */,
+				A27CDA13231786E800B83BA4 /* Main.storyboard */,
+				A27CDA16231786EA00B83BA4 /* Assets.xcassets */,
+				A27CDA18231786EA00B83BA4 /* LaunchScreen.storyboard */,
+				A27CDA1B231786EA00B83BA4 /* Info.plist */,
+			);
+			path = ArcTouch;
+			sourceTree = "<group>";
+		};
+		A27CDA23231786EA00B83BA4 /* ArcTouchTests */ = {
+			isa = PBXGroup;
+			children = (
+				A27CDA24231786EA00B83BA4 /* ArcTouchTests.swift */,
+				A27CDA26231786EA00B83BA4 /* Info.plist */,
+			);
+			path = ArcTouchTests;
+			sourceTree = "<group>";
+		};
+		A27CDA2E231786EA00B83BA4 /* ArcTouchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A27CDA2F231786EA00B83BA4 /* ArcTouchUITests.swift */,
+				A27CDA31231786EA00B83BA4 /* Info.plist */,
+			);
+			path = ArcTouchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A27CDA0B231786E800B83BA4 /* ArcTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A27CDA34231786EA00B83BA4 /* Build configuration list for PBXNativeTarget "ArcTouch" */;
+			buildPhases = (
+				A27CDA08231786E800B83BA4 /* Sources */,
+				A27CDA09231786E800B83BA4 /* Frameworks */,
+				A27CDA0A231786E800B83BA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArcTouch;
+			productName = ArcTouch;
+			productReference = A27CDA0C231786E800B83BA4 /* ArcTouch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A27CDA1F231786EA00B83BA4 /* ArcTouchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A27CDA37231786EA00B83BA4 /* Build configuration list for PBXNativeTarget "ArcTouchTests" */;
+			buildPhases = (
+				A27CDA1C231786EA00B83BA4 /* Sources */,
+				A27CDA1D231786EA00B83BA4 /* Frameworks */,
+				A27CDA1E231786EA00B83BA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A27CDA22231786EA00B83BA4 /* PBXTargetDependency */,
+			);
+			name = ArcTouchTests;
+			productName = ArcTouchTests;
+			productReference = A27CDA20231786EA00B83BA4 /* ArcTouchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A27CDA2A231786EA00B83BA4 /* ArcTouchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A27CDA3A231786EA00B83BA4 /* Build configuration list for PBXNativeTarget "ArcTouchUITests" */;
+			buildPhases = (
+				A27CDA27231786EA00B83BA4 /* Sources */,
+				A27CDA28231786EA00B83BA4 /* Frameworks */,
+				A27CDA29231786EA00B83BA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A27CDA2D231786EA00B83BA4 /* PBXTargetDependency */,
+			);
+			name = ArcTouchUITests;
+			productName = ArcTouchUITests;
+			productReference = A27CDA2B231786EA00B83BA4 /* ArcTouchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A27CDA04231786E800B83BA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Fernando Gallo";
+				TargetAttributes = {
+					A27CDA0B231786E800B83BA4 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					A27CDA1F231786EA00B83BA4 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = A27CDA0B231786E800B83BA4;
+					};
+					A27CDA2A231786EA00B83BA4 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = A27CDA0B231786E800B83BA4;
+					};
+				};
+			};
+			buildConfigurationList = A27CDA07231786E800B83BA4 /* Build configuration list for PBXProject "ArcTouch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A27CDA03231786E800B83BA4;
+			productRefGroup = A27CDA0D231786E800B83BA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A27CDA0B231786E800B83BA4 /* ArcTouch */,
+				A27CDA1F231786EA00B83BA4 /* ArcTouchTests */,
+				A27CDA2A231786EA00B83BA4 /* ArcTouchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A27CDA0A231786E800B83BA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27CDA1A231786EA00B83BA4 /* LaunchScreen.storyboard in Resources */,
+				A27CDA17231786EA00B83BA4 /* Assets.xcassets in Resources */,
+				A27CDA15231786E800B83BA4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27CDA1E231786EA00B83BA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27CDA29231786EA00B83BA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A27CDA08231786E800B83BA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27CDA12231786E800B83BA4 /* ViewController.swift in Sources */,
+				A27CDA10231786E800B83BA4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27CDA1C231786EA00B83BA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27CDA25231786EA00B83BA4 /* ArcTouchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27CDA27231786EA00B83BA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A27CDA30231786EA00B83BA4 /* ArcTouchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A27CDA22231786EA00B83BA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A27CDA0B231786E800B83BA4 /* ArcTouch */;
+			targetProxy = A27CDA21231786EA00B83BA4 /* PBXContainerItemProxy */;
+		};
+		A27CDA2D231786EA00B83BA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A27CDA0B231786E800B83BA4 /* ArcTouch */;
+			targetProxy = A27CDA2C231786EA00B83BA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A27CDA13231786E800B83BA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A27CDA14231786E800B83BA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A27CDA18231786EA00B83BA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A27CDA19231786EA00B83BA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A27CDA32231786EA00B83BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A27CDA33231786EA00B83BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A27CDA35231786EA00B83BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ArcTouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fernandogallo.ArcTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A27CDA36231786EA00B83BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ArcTouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fernandogallo.ArcTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A27CDA38231786EA00B83BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ArcTouchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fernandogallo.ArcTouchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArcTouch.app/ArcTouch";
+			};
+			name = Debug;
+		};
+		A27CDA39231786EA00B83BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ArcTouchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fernandogallo.ArcTouchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArcTouch.app/ArcTouch";
+			};
+			name = Release;
+		};
+		A27CDA3B231786EA00B83BA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ArcTouchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fernandogallo.ArcTouchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ArcTouch;
+			};
+			name = Debug;
+		};
+		A27CDA3C231786EA00B83BA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ArcTouchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fernandogallo.ArcTouchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ArcTouch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A27CDA07231786E800B83BA4 /* Build configuration list for PBXProject "ArcTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A27CDA32231786EA00B83BA4 /* Debug */,
+				A27CDA33231786EA00B83BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A27CDA34231786EA00B83BA4 /* Build configuration list for PBXNativeTarget "ArcTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A27CDA35231786EA00B83BA4 /* Debug */,
+				A27CDA36231786EA00B83BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A27CDA37231786EA00B83BA4 /* Build configuration list for PBXNativeTarget "ArcTouchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A27CDA38231786EA00B83BA4 /* Debug */,
+				A27CDA39231786EA00B83BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A27CDA3A231786EA00B83BA4 /* Build configuration list for PBXNativeTarget "ArcTouchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A27CDA3B231786EA00B83BA4 /* Debug */,
+				A27CDA3C231786EA00B83BA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A27CDA04231786E800B83BA4 /* Project object */;
+}
