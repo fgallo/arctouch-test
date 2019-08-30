@@ -16,8 +16,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
+        setupAppearance()
+        
         let moviesViewController = UIStoryboard.main.moviesViewController
-        moviesViewController.viewModel = MoviesViewModel(provider: TMDbProvider)
+        let moviesViewModel = MoviesViewModel(provider: TMDbProvider)
+        moviesViewController.viewModel = moviesViewModel
+        moviesViewModel.delegate = moviesViewController
+        
         let navigationController = UINavigationController(rootViewController: moviesViewController)
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.rootViewController = navigationController
@@ -47,6 +52,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
+    private func setupAppearance() {
+        let navigationBarAppearance = UINavigationBar.appearance()
+        navigationBarAppearance.tintColor = UIColor.white
+        navigationBarAppearance.barTintColor = .black
+        navigationBarAppearance.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
+        navigationBarAppearance.isTranslucent = false
+    }
 
 }
 

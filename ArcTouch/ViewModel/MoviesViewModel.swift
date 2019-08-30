@@ -47,4 +47,13 @@ class MoviesViewModel {
         return movies.count
     }
     
+    func viewModelForItemAt(indexPath: IndexPath) -> MovieCellViewModel {
+        let movie = movies[indexPath.row]
+        return MovieCellViewModel(movie: movie)
+    }
+    
+    func showMovieDetailsAt(indexPath: IndexPath) {
+        
+    }
+    
 }

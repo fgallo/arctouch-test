@@ -7,6 +7,7 @@ target 'ArcTouch' do
 
   # Pods for ArcTouch
 
+  pod 'Kingfisher'
   pod 'Moya', '~> 13.0'
 
   target 'ArcTouchTests' do

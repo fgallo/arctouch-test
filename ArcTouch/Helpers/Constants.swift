@@ -12,6 +12,7 @@ struct Constants {
     
     struct TMDbAPI {
         static let endpoint = "https://api.themoviedb.org/3"
+        static let imagesEndpoint = "https://image.tmdb.org/t/p/original"
         static let apiKey = "1f54bd990f1cdfb230adb312546d765d"
     }
     

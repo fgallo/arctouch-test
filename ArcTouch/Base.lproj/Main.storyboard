@@ -20,7 +20,7 @@
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="BSP-VV-kMh">
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="z3K-h7-vBt">
                                     <size key="itemSize" width="50" height="50"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -38,17 +38,23 @@
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="FlJ-dZ-QpB">
+                                <rect key="frame" x="197" y="438" width="20" height="20"/>
+                            </activityIndicatorView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.066666666666666666" green="0.090196078431372548" blue="0.11372549019607843" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="FlJ-dZ-QpB" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Jrv-Mr-lWJ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BSP-VV-kMh" secondAttribute="trailing" id="PAT-kP-asM"/>
                             <constraint firstItem="BSP-VV-kMh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="VTz-qk-r7y"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="BSP-VV-kMh" secondAttribute="bottom" id="a9M-pu-C6p"/>
+                            <constraint firstItem="FlJ-dZ-QpB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pJp-gx-dEE"/>
                             <constraint firstItem="BSP-VV-kMh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="yP9-RF-eAU"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="activityIndicatorView" destination="FlJ-dZ-QpB" id="TkN-TQ-sQ4"/>
                         <outlet property="collectionView" destination="BSP-VV-kMh" id="qoR-GY-QBm"/>
                     </connections>
                 </viewController>
