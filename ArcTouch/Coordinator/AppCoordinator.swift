@@ -16,6 +16,7 @@ class AppCoordinator: Coordinator {
     init(window: UIWindow) {
         self.window = window
         rootViewController = UINavigationController()
+        rootViewController.navigationBar.barStyle = .black
         moviesCoordinator = MoviesCoordinator(presenter: rootViewController)
         setupAppearance()
     }
@@ -31,6 +32,6 @@ class AppCoordinator: Coordinator {
         navigationBarAppearance.tintColor = UIColor.white
         navigationBarAppearance.barTintColor = .black
         navigationBarAppearance.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
-        navigationBarAppearance.isTranslucent = false
+        navigationBarAppearance.isTranslucent = true
     }
 }

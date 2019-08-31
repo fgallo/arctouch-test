@@ -10,11 +10,17 @@ import Foundation
 
 struct MovieResponse {
     let movies: [Movie]
+    let page: Int
+    let totalPages: Int
+    let totalMovies: Int
 }
 
 extension MovieResponse: Decodable {
     enum CodingKeys: String, CodingKey {
         case movies = "results"
+        case page
+        case totalPages = "total_pages"
+        case totalMovies = "total_results"
     }
 }
 
@@ -25,6 +31,7 @@ struct Movie {
     let releaseDate: String?
     let posterPath: String?
     let backdropPath: String?
+    let overview: String?
 }
 
 extension Movie: Decodable {
@@ -35,5 +42,6 @@ extension Movie: Decodable {
         case releaseDate = "release_date"
         case posterPath = "poster_path"
         case backdropPath = "backdrop_path"
+        case overview
     }
 }

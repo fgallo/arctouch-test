@@ -38,8 +38,8 @@
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
-                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="FlJ-dZ-QpB">
-                                <rect key="frame" x="197" y="438" width="20" height="20"/>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="FlJ-dZ-QpB">
+                                <rect key="frame" x="188.5" y="429.5" width="37" height="37"/>
                             </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" red="0.066666666666666666" green="0.090196078431372548" blue="0.11372549019607843" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -60,6 +60,59 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="36" y="100"/>
+        </scene>
+        <!--Movie Details View Controller-->
+        <scene sceneID="1c5-RQ-66V">
+            <objects>
+                <viewController storyboardIdentifier="MovieDetailsViewController" id="gH6-cC-kDB" customClass="MovieDetailsViewController" customModule="ArcTouch" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qc5-hD-hIz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ybX-nV-Pte">
+                                <rect key="frame" x="0.0" y="44" width="414" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="240" id="5d1-Un-Ed9"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="RAH-Yh-H3x">
+                                <rect key="frame" x="16" y="319.5" width="382" height="526.5"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6l6-zX-lVh">
+                                <rect key="frame" x="16" y="292" width="35.5" height="19.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.066666666669999999" green="0.090196078430000007" blue="0.1137254902" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Hkt-z4-zcF" firstAttribute="trailing" secondItem="ybX-nV-Pte" secondAttribute="trailing" id="1mk-ik-B3O"/>
+                            <constraint firstItem="ybX-nV-Pte" firstAttribute="leading" secondItem="Hkt-z4-zcF" secondAttribute="leading" id="3wY-XK-MAY"/>
+                            <constraint firstItem="Hkt-z4-zcF" firstAttribute="trailing" secondItem="RAH-Yh-H3x" secondAttribute="trailing" constant="16" id="9uq-GR-H1W"/>
+                            <constraint firstItem="RAH-Yh-H3x" firstAttribute="leading" secondItem="Hkt-z4-zcF" secondAttribute="leading" constant="16" id="Kke-yT-k9K"/>
+                            <constraint firstItem="ybX-nV-Pte" firstAttribute="top" secondItem="Hkt-z4-zcF" secondAttribute="top" id="XXB-CF-MPG"/>
+                            <constraint firstItem="6l6-zX-lVh" firstAttribute="top" secondItem="ybX-nV-Pte" secondAttribute="bottom" constant="8" id="Y81-Aa-iHZ"/>
+                            <constraint firstItem="Hkt-z4-zcF" firstAttribute="bottom" secondItem="RAH-Yh-H3x" secondAttribute="bottom" constant="16" id="f4C-mn-eAr"/>
+                            <constraint firstItem="6l6-zX-lVh" firstAttribute="leading" secondItem="Hkt-z4-zcF" secondAttribute="leading" constant="16" id="gmh-G4-20T"/>
+                            <constraint firstItem="RAH-Yh-H3x" firstAttribute="top" secondItem="6l6-zX-lVh" secondAttribute="bottom" constant="8" id="mzx-VW-syu"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Hkt-z4-zcF"/>
+                    </view>
+                    <connections>
+                        <outlet property="movieImageView" destination="ybX-nV-Pte" id="laa-ZZ-Ana"/>
+                        <outlet property="overviewTextView" destination="RAH-Yh-H3x" id="Sov-2n-3fa"/>
+                        <outlet property="releaseDateLabel" destination="6l6-zX-lVh" id="tcH-RL-2UK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YkA-zK-k25" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="905.79710144927549" y="99.776785714285708"/>
         </scene>
     </scenes>
 </document>

@@ -39,8 +39,9 @@ extension TMDbAPI: TargetType {
     
     public var task: Task {
         switch self {
-        case .movies:
-            return .requestParameters(parameters: [Constants.Parameters.apiKey: Constants.TMDbAPI.apiKey],
+        case .movies(let page):
+            return .requestParameters(parameters: [Constants.Parameters.apiKey: Constants.TMDbAPI.apiKey,
+                                                   Constants.Parameters.page: page],
                                       encoding: URLEncoding.default)
         }
     }

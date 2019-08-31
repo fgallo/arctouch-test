@@ -13,7 +13,6 @@ class MovieCollectionViewCell: UICollectionViewCell {
 
     @IBOutlet weak var movieImageView: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!
-    @IBOutlet weak var genreLabel: UILabel!
     @IBOutlet weak var releaseDateLabel: UILabel!
     
     static let cellIdentifier = "MovieCell"
@@ -33,6 +32,7 @@ class MovieCollectionViewCell: UICollectionViewCell {
     
     func configure() {
         titleLabel.text = viewModel.title
+        releaseDateLabel.text = viewModel.releaseDate
         
         if let url = viewModel.coverURL {
             movieImageView.kf.indicatorType = .activity

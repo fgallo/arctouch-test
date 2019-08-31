@@ -18,6 +18,7 @@ struct Constants {
     
     struct Parameters {
         static let apiKey = "api_key"
+        static let page = "page"
     }
     
 }
